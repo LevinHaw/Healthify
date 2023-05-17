@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ctr_bg"
+    tools:context=".Salmonellosis">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:backgroundTint="@color/bluelight"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ctr_bg"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            app:title="Salmonellosis">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center|end"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/salmonellosis"
+                app:layout_collapseMode="parallax" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_bg"
+        android:padding="20dp"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Salmonellosis is an infection with bacteria called Salmonella. There are
+many different kinds of salmonella bacteria. Most of the time, the bacteria
+infect the intestines of people and animals, causing a diarrhea illness.
+Sometimes, the bacteria enter the bloodstream of the infected person,
+causing a much more severe illness. Salmonella infections usually last 5 – 7 days and resolve without
+treatment. The diarrhea may be so severe that the person may need to be
+hospitalized and treated with antibiotics to prevent the bacteria from
+spreading into the bloodstream. Infants and people with weakened
+immune systems are more likely to develop severe disease."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Symptoms"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Signs and symptoms of salmonellosis occur suddenly and may include : "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Headache"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Fever"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Diarrhea"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Abdominal cramps"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Nausea and sometimes vomiting"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Sudden onset"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Vomiting"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	 Confirm with stool specimen"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="How is it spread"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Salmonella are usually spread by eating contaminated food, often of
+animal origin (e.g., beef, poultry, milk, or eggs). Fruit and vegetables may
+also be contaminated. Thorough cooking kills salmonella bacteria. Salmonella may also be spread by eating food
+prepared by an infected person who has not
+washed their hands. Salmonella is also found in the feces of some
+pets, especially those with diarrhea. Turtles, lizards,
+snakes, chicks, and ducklings often carry salmonella."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="How to prevent spread of the illness "
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Thoroughly cook all food from animal sources. Refrigerate
+prepared foods. Educate food handlers. Promote careful
+hand-washing. Exclude individuals with symptoms from food handling and child care until
+48 hours after diarrhea stops or until 2 stool cultures are negative. "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Reference"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_refSalmonellosis"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="@string/_1_common"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_refSalmonellosis2"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="@string/_2_common"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

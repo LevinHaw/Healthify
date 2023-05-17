@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ctr_bg"
+    tools:context=".Mumps">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:backgroundTint="@color/bluelight"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ctr_bg"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            app:title="Mumps">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center|end"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/mumps"
+                app:layout_collapseMode="parallax" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_bg"
+        android:padding="20dp"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Mumps disease is caused by the mumps virus. Many children have mild or
+no symptoms but they are still contagious to others. Adults are more likely
+to experience complications than children."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Symptoms"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Signs and symptoms of mumps may include :"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Fever"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	headache and inflammation of the salivary glands
+causing the cheeks to swell painfully"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Swollen and painful salivary glands (found in front of and below the
+ear or under the jaw)"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Complications of mumps disease include :"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Meningitis (inflammation of the lining of the brain) in 20% of people
+infected"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Orchitis (inflammation of the testicle) in 20-30% of post-pubertal
+males"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Oophoritis (inflammation of the ovary) in 5% of post-pubertal
+females"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	 Deafness and infertility occur occasionally"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="How is it spread"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Through direct or indirect contact with nose and throat secretions of an
+infected person "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Breathing air contaminated with the virus when
+an infected person has coughed or sneezed"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Touching the nose and throat secretions of an
+infected person"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Kissing"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	 Sharing anything that is put in the mouth (e.g.,
+cups, toys)"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Reference"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_refMumps"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="@string/_1_common"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_refMumps2"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="@string/_2_common"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

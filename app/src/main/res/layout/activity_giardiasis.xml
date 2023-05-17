@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ctr_bg"
+    tools:context=".Giardiasis">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:backgroundTint="@color/bluelight"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ctr_bg"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            app:title="Giardiasis">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center|end"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/intestine"
+                app:layout_collapseMode="parallax" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_bg"
+        android:padding="20dp"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="iardia is a parasite that causes a bowel infection. Once a person or
+animal is infected with giardia, the parasite lives in the intestine and is
+passed in stool. It can live for long periods of time outside the body. Giardia can infect humans and animals (e.g., cats, dogs, cattle, deer, and
+beavers). A person infected with giardia has giardiasis. "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Symptoms"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Signs and symptoms of giardiasis may include :"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Diarrhea (may have a bad smell or greasy appearance)"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Abdominal cramps"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Bloating and gas"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Fatigue"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	 Loss of appetite and nausea"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="Sometimes there are no symptoms"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="How is it spread"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Giardia parasites are found on surfaces or in soil, food, or water that has
+been contaminated with the stool of infected humans or animals. "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Giardia is spread by :"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Drinking contaminated water or ice made from contaminated water"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Eating uncooked food that is
+contaminated with giardia"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Swallowing lake or swimming pool water
+that is contaminated"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Direct contact with infected stool (e.g.,
+changing a diaper, assisting a child with
+toileting)"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Touching surfaces accidentally contaminated with stool
+from an infected person (e.g., toys, bathroom fixtures such as taps
+and light switches, changing tables, or diaper pails) "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="An individual who is not treated with medication may release giardia
+parasites in their stool for several months after recovering. "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="How to prevent
+spread of the illness
+to other children"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Promote good personal hygiene and hand-washing. Protect
+water supplies. Careful disposal of sewage."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Exclude child from school or child care until 48 hours after their last
+episode of diarrhea or vomiting. "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Exclude any individual with symptoms from food handling and child care. "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Reference"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_refGiardiasis"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="@string/_1_common"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_refGiardiasis2"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="@string/_2_common"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

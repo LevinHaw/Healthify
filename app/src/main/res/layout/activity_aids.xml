@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ctr_bg"
+    tools:context=".AIDS">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:backgroundTint="@color/bluelight"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ctr_bg"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            app:title="AIDS">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center|end"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/condom"
+                app:layout_collapseMode="parallax" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_bg"
+        android:padding="20dp"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="AIDS is a pandemic disease. The word “immuno deficiency” signifies that the immune
+system becomes very weak. It is a disorder of cell-mediated immune system of the body."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Symptoms of AIDS :"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:text="•	a type of lung disease develops (tuberculosis)"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	a skin cancer may be observed"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Nerves are effected"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	brain is badly damaged with the loss of memory, ability to speak and to think"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="AIDS may be transmitted through any of the following means :"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:text="•	sexual contact with the affected person. In India, the most common route of
+HIV transmission is through unprotected heterosexual sex"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	using the same syringe as that of affected person"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	blood transfusion which contains human immuno deficiency virus"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	organ transplantation of the affected person"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	artificial insemination"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	from mother to new born baby during the process of giving birth."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Facts about HIV transmission"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="HIV is a weak virus and hard to get infected with. It cannot be transmitted
+through air or water outside the human body. A person cannot get AIDS by hugging or sneezing of an infected person, insect
+bites(including mosquito),sharing the same comb, plates, glass, handkerchiefs,
+knives or cutlery. A person cannot get AIDS by using public toilets, swimming pools, showers
+and telephones. HIV does not transmit by being near to someone, touching someone or working
+with someone who is suffering from AIDS."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Prevention and cure"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/acme"
+            android:justificationMode="inter_word"
+            android:padding="10dp"
+            android:text="No medicine or vaccine is known to be available against HIV infection. Therefore,
+care has to be taken through following measures:"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	there should not be any sexual contact with the person who has HIV infection
+or STI. Since STI causes some damage to the gemital area and mucous layer,
+and thus facilitates the entry of HIV into the body"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	use disposable syringe and needle"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	the blood to be transfused to the needy person, should be free from HIV germ"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	prostitution and homosexuality should be avoided"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	condom should always be used during intercourse"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Reference"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_refA"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="@string/_1_aids"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

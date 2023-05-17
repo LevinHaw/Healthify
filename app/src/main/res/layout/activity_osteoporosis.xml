@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ctr_bg"
+    tools:context=".Osteoporosis">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:backgroundTint="@color/bluelight"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ctr_bg"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            app:title="Osteoporosis">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center|end"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/osteoporosis"
+                app:layout_collapseMode="parallax" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_bg"
+        android:padding="20dp"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Osteoporosis is an age dependent disorder with loss of the normal density of bone.
+The bones become fragile and are easily fractured. Bones that are affected by
+osteoporosis can fracture with only a minor fall or injury. Elderly men and women
+are most susceptible because of hormonal changes which occur with advancing age."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Symptoms"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	The persons suffering from osteoporosis may not know about their condition
+for a long time, because osteoporosis doesn’t cause clear cut symptoms and
+one may not realise till a bone fracture"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	The symptoms of osteoporosis are related to the location of the fractures"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Fractures of the spine can cause severe ‘band like’ pain that radiates around
+from the back to the side of the body. Repeated spine fractures can cause
+chronic lower back pain, as well as curving of the spine, which gives the
+individual a hunched-back appearance"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Some patients with osteoporosis develop stress fractures of the feet while
+walking or stepping off. Hip fractures typically occur as a result of a fall. With
+osteoporosis, hip fractures can occur upon even minor accidents. Hip fractures
+may take a very long time to heal because of poor bone quality"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Treatment"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Patients suffering from osteoporosis are generally treated with vitamin D and
+calcium supplements. In addition they are advised bed rest so that the
+condition does not worsen"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Changes to lifestyle and diet are also recommended. The patients are advised
+to take calcium either via dietary means or via supplements in the form of
+tablets. Since body absorbs about 500 mg calcium at a given time, the calcium
+intake should be spread throughout the day"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="•	Exercise also helps to protect persons from the risk of getting osteoporosis.
+However, it is important to do exercises for osteoporosis under the guidance
+of a professional physiotherapist"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Reference"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_refOsteo"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="@string/_4_common"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

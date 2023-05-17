@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4DC7CC"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".Search">
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_background"
+        android:backgroundTint="@color/white"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search here"></SearchView>
+
+    <ListView
+        android:id="@+id/myList"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:background="@drawable/custom_background"
+        android:backgroundTint="@color/white"
+        tools:listitem="@android:layout/simple_list_item_activated_1"/>
+
+</LinearLayout>

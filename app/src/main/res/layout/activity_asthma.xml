@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ctr_bg"
+    tools:context=".Asthma">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:backgroundTint="@color/bluelight"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ctr_bg"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            app:title="Asthma">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center|end"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/asthmas"
+                app:layout_collapseMode="parallax" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_bg"
+        android:padding="20dp"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Asthma is a chronic disorder of the airways characterized by periods of reversible airflow obstruction. Asthma is an incurable disease, but it can be controlled with proper medical care and can be prevented by avoiding environmental exposures that can trigger asthma attacks."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Asthma is a chronic lung disease that causes sufferers to have difficulty breathing. This is due to tightening of the muscles around the respiratory tract, inflammation, pain, swelling, and irritation of the airways in the lungs."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Inflammation and cause difficulty in breathing symptoms :"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="260dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="•	coughing up phlegm"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="260dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="•	wheezing sounds"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="•	severe shortness of breath and even choking"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Asthma Clinical Symptoms :"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="•	signs and symptoms include hypoventilation"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="260dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="•	dyspnea"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="260dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="•	wheezing"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="260dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="•	dizziness"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="260dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="•	 headache"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="260dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="•	  nausea"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="260dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="•	  increased shortness of breath"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="260dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="•	  anxiety"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="260dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="•	  diaphoresis"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="260dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="•	  diaphoresis"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="260dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="•	  fatigue"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Reference"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_ref1"
+                android:layout_width="260dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="@string/_1_asthma"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/tv_ref2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="@string/_2_asthma"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/tv_ref3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="@string/_3_asthma"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/tv_ref4"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="@string/_4_asthma"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:clickable="true"/>
+
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

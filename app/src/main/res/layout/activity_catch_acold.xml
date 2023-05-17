@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ctr_bg"
+    tools:context=".Catch_a_cold">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:backgroundTint="@color/bluelight"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ctr_bg"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            app:title="Catch a cold">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center|end"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/cold"
+                app:layout_collapseMode="parallax" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_bg"
+        android:padding="20dp"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Symptoms of a common cold usually appear one to three days after exposure to a cold-causing virus. Signs and symptoms, which can vary from person to person, might include :
+runny or stuffy nose, sore throat, cough, congestion, slight body aches or a mild headache, sneezing, low-grade fever, and generally feeling unwell. The discharge from your nose may start out clear and become thicker and yellow or green as a common cold runs its course. This doesn't usually mean you have a bacterial infection.
+"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:text="When to see doctor"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:text="For adults — generally, you don't need medical attention for a common cold. However, seek medical attention if you have :" />
+
+            <TextView
+                android:layout_width="260dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:textColor="@color/black"
+                android:text="•	symptoms that worsen or fail to improve" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:textColor="@color/black"
+                android:text="•	fever greater than 101.3 F (38.5 C) lasting more than three days" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:textColor="@color/black"
+                android:text="•	fever returning after a fever-free period" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:textColor="@color/black"
+                android:text="•	shortness of breath" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:textColor="@color/black"
+                android:text="•	wheezing" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:textColor="@color/black"
+                android:text="•	severe sore throat, headache or sinus pain" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"
+                android:text="For children — in general, your child doesn't need to see his or her doctor for a common cold. But seek medical attention right away if your child has any of the following :" />
+
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:textColor="@color/black"
+                android:text="•	fever of 100.4 F (38 C) in newborns up to 12 weeks" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="40dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:textColor="@color/black"
+                android:text="•	rising fever or fever lasting more than two days in a child of any age" />
+
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:textColor="@color/black"
+                android:text="•	severe symptoms, such as headache, throat pain or cough" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:textColor="@color/black"
+                android:text="•	difficulty breathing or wheezing" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:textColor="@color/black"
+                android:text="•	ear pain" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:textColor="@color/black"
+                android:text="•	extreme fussiness" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:textColor="@color/black"
+                android:text="•	unusual drowsiness" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:textColor="@color/black"
+                android:text="•	lack of appetite" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:fontFamily="@font/acme"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Causes"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:text="Although many types of viruses can cause a common cold, rhinoviruses are the most common cause. A cold virus enters your body through your mouth, eyes or nose. The virus can spread through droplets in the air when someone who is sick coughs, sneezes or talks. It also spreads by hand-to-hand contact with someone who has a cold or by sharing contaminated objects, such as eating utensils, towels, toys or telephones. If you touch your eyes, nose or mouth after such contact, you're likely to catch a cold." />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/acme"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Reference"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_refC1"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/acme"
+                android:text="@string/_1_catch"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

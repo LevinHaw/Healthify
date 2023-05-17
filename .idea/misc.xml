@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Apk 2/InformatikaKesehatan/app/src/main/res/drawable/ctr_bg.xml" value="0.2375" />
+        <entry key="..\:/Apk 2/InformatikaKesehatan/app/src/main/res/drawable/ctr_bg2.xml" value="0.2375" />
+        <entry key="..\:/Apk 2/InformatikaKesehatan/app/src/main/res/drawable/layout_bg.xml" value="0.2375" />
+        <entry key="..\:/Apk 2/InformatikaKesehatan/app/src/main/res/layout/activity_about_us.xml" value="0.19429347826086957" />
+        <entry key="..\:/Apk 2/InformatikaKesehatan/app/src/main/res/layout/activity_add_med_info.xml" value="0.264" />
+        <entry key="..\:/Apk 2/InformatikaKesehatan/app/src/main/res/layout/activity_catch_acold.xml" value="0.16399043389135634" />
+        <entry key="..\:/Apk 2/InformatikaKesehatan/app/src/main/res/layout/activity_forget_password.xml" value="0.12158054711246201" />
+        <entry key="..\:/Apk 2/InformatikaKesehatan/app/src/main/res/layout/activity_google_maps.xml" value="0.19429347826086957" />
+        <entry key="..\:/Apk 2/InformatikaKesehatan/app/src/main/res/layout/activity_influenza.xml" value="0.19429347826086957" />
+        <entry key="..\:/Apk 2/InformatikaKesehatan/app/src/main/res/layout/activity_introductory.xml" value="0.1" />
+        <entry key="..\:/Apk 2/InformatikaKesehatan/app/src/main/res/layout/activity_login.xml" value="0.12158054711246201" />
+        <entry key="..\:/Apk 2/InformatikaKesehatan/app/src/main/res/layout/activity_menu_alarm.xml" value="0.1956521739130435" />
+        <entry key="..\:/Apk 2/InformatikaKesehatan/app/src/main/res/layout/activity_verify_otp.xml" value="0.19429347826086957" />
+        <entry key="..\:/Apk 2/InformatikaKesehatan/app/src/main/res/layout/customtoolbar.xml" value="0.1956521739130435" />
+        <entry key="..\:/Apk 2/InformatikaKesehatan/app/src/main/res/layout/fragment_on_boarding1.xml" value="0.17028985507246377" />
+        <entry key="..\:/Apk 2/InformatikaKesehatan/app/src/main/res/layout/fragment_on_boarding2.xml" value="0.23802083333333332" />
+        <entry key="..\:/Apk 2/InformatikaKesehatan/app/src/main/res/layout/fragment_on_boarding3.xml" value="0.19429347826086957" />
+        <entry key="..\:/Apk 2/InformatikaKesehatan/app/src/main/res/layout/header.xml" value="0.1956521739130435" />
+        <entry key="..\:/Apk 2/InformatikaKesehatan/app/src/main/res/layout/signup_tab_fragment.xml" value="0.19429347826086957" />
+        <entry key="..\:/Apk 2/InformatikaKesehatan/app/src/main/res/menu/main_menu.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

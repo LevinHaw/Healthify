@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Medico Healthcare</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="reminder_time_prompt">Choose a plan</string>
+    <string name="google_map_key">AIzaSyBcQh1bm0PUpbhsHDPi_wQ6xT198f6Zc3Q</string>
+    <string name="welcome_to_health_care_e_l"><![CDATA[Welcome to Health Care E & L]]></string>
+
+    <string name="facebook_app_id">158252159678478</string>
+    <string name="fb_login_protocol_scheme">fb158252159678478</string>
+
+    <string name="Api_Key">HODb0a0tKDaukX71tps9UiJEC</string>
+    <string name="Api_Secret">OGpoaMv10stziaEA3anAVVhOiMGxoMUeAqowRJv4jJZ9DYhAtO</string>
+
+    <string name="_1_asthma"> <a href="https://repository.unej.ac.id/bitstream/handle/123456789/76882/Rafika%20Respitasari%20112110101070-1.pdf?sequence=1">https://repository.unej.ac.id/bitstream</a> </string>
+    <string name="_2_asthma"><a href="https://www.google.co.id/books/edition/Asma/9EUo7vOdddkC?hl=">https://www.google.co.id/books/edition/Asma </a> </string>
+    <string name="_3_asthma"><a href="http://staffnew.uny.ac.id/upload/132318122/penelitian/DEFINISI+ASMA.pdf">http://staffnew.uny.ac.id/upload/132318122/penelitian/DEFINISI+ASMA.pdf </a> </string>
+    <string name="_4_asthma"><a href="http://eprints.poltekkesjogja.ac.id/3659/8/BAB%20II%20dan%20kerangka.pdf">http://eprints.poltekkesjogja.ac.id/3659/8/BAB%20II%20dan%20kerangka.pdf </a> </string>
+
+    <string name="_1_catch"><a href="https://www.mayoclinic.org/diseases-conditions/common-cold/symptoms-causes/syc-20351605">https://www.mayoclinic.org/diseases-conditions/common-cold/symptoms-causes/syc-20351605 </a> </string>
+
+    <string name="_1_dengue"><a href="https://www.mayoclinic.org/diseases-conditions/dengue-fever/symptoms-causes/syc-20353078">https://www.mayoclinic.org/diseases-conditions/dengue-fever/symptoms-causes/syc-20353078 </a> </string>
+    <string name="_2_dengue"><a href="https://juke.kedokteran.unila.ac.id/index.php/majority/article/viewFile/1449/1284">https://juke.kedokteran.unila.ac.id/index.php/majority/article/viewFile/1449/1284 </a> </string>
+    <string name="_3_dengue"><a href="https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue">https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue</a> </string>
+
+    <string name="_1_diarrhea"><a href="https://medlineplus.gov/diarrhea.html">https://medlineplus.gov/diarrhea.html</a> </string>
+    <string name="_2_diarrhea"><a href="http://apps.who.int/iris/bitstream/handle/10665/43209/9241593180.pdf?sequence=1">http://apps.who.int/iris/bitstream/handle/10665/43209/9241593180.pdf?sequence=1</a> </string>
+    <string name="_3_diarrhea"><a href="https://www.niddk.nih.gov/health-information/digestive-diseases/diarrhea/symptoms-causes">https://www.niddk.nih.gov/health-information/digestive-diseases/diarrhea/symptoms-causes</a> </string>
+
+    <string name="_1_hiv"><a href="http://eprints.undip.ac.id/43845/3/ELIZABETH_FAJAR_P.P_G2A009163_bab_2_KTI.pdf">http://eprints.undip.ac.id/43845/3/ELIZABETH_FAJAR_P.P_G2A009163_bab_2_KTI.pdf</a> </string>
+    <string name="_2_hiv"><a href="http://eprints.poltekkesjogja.ac.id/2238/3/BAB%20II.pdf">http://eprints.poltekkesjogja.ac.id/2238/3/BAB%20II.pdf</a> </string>
+
+    <string name="_1_influenza"><a href="https://www.cdc.gov/flu/about/index.html">https://www.cdc.gov/flu/about/index.html</a> </string>
+    <string name="_2_influenza"><a href="https://dph.illinois.gov/topics-services/diseases-and-conditions/influenza">https://dph.illinois.gov/topics-services/diseases-and-conditions/influenza</a> </string>
+
+    <string name="_1_tuberculosis"><a href="http://repository.unimus.ac.id/2843/4/BAB%20II.pdf">http://repository.unimus.ac.id/2843/4/BAB%20II.pdf</a> </string>
+
+    <string name="_1_aids"><a href="https://nios.ac.in/media/documents/srsec314newE/PDFBIO.EL28.pdf">https://nios.ac.in/media/documents/srsec314newE/PDFBIO.EL28.pdf</a> </string>
+
+    <string name="_1_bronchiolitis"><a href="https://sunderlandccg.nhs.uk/wp-content/uploads/2016/01/Sunderland-CCG-Common-Childhood-Illnesses-web-version.pdf">https://sunderlandccg.nhs.uk/wp-content/uploads/2016/01/Sunderland-CCG-Common-Childhood-Illnesses-web-version.pdf</a> </string>
+    <string name="_2_bronchiolitis"><a href="https://www.mayoclinic.org/diseases-conditions/bronchiolitis/symptoms-causes/syc-20351565">https://www.mayoclinic.org/diseases-conditions/bronchiolitis/symptoms-causes/syc-20351565</a> </string>
+
+    <string name="_1_common"><a href="http://www.bccdc.ca/resource-gallery/Documents/Guidelines%20and%20Forms/Guidelines%20and%20Manuals/Epid/Other/Epid_GF_childhood_quickguide_may_09.pdf">http://www.bccdc.ca/resource-gallery/Documents/Guidelines%20and%20Forms/Guidelines%20and%20Manuals/Epid/Other/Epid_GF_childhood_quickguide_may_09.pdf</a> </string>
+    <string name="_2_common"><a href="https://www.health.gov.bc.ca/library/publications/year/2001/PHN144.pdf">https://www.health.gov.bc.ca/library/publications/year/2001/PHN144.pdf</a> </string>
+    <string name="_3_common"><a href="https://sunderlandccg.nhs.uk/wp-content/uploads/2016/01/Sunderland-CCG-Common-Childhood-Illnesses-web-version.pdf">https://sunderlandccg.nhs.uk/wp-content/uploads/2016/01/Sunderland-CCG-Common-Childhood-Illnesses-web-version.pdf</a> </string>
+    <string name="_4_common"><a href="https://nios.ac.in/media/documents/srsec314newE/PDFBIO.EL28.pdf">https://nios.ac.in/media/documents/srsec314newE/PDFBIO.EL28.pdf</a> </string>
+
+
+    <string-array name="reminder_times">
+
+
+        <item>Once Per Day</item>
+        <item>Twice Per Day</item>
+        <item>3 Times Per Day</item>
+
+
+    </string-array>
+
+    <string-array name="scehdule_type">
+
+        <item>Continous Treatment</item>
+        <item>Only One Day</item>
+
+    </string-array>
+
+</resources>
